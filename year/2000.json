@@ -1,4 +1,4 @@
-{"grades":[["America",1000],["Britain",200],["China",100],["All",100]], "countries":[
+{"grades":[["low",1000],["high", 10000],["middle", 5000]], "countries":[
     {
         "code": "AD", 
         "latitude": 42.546245, 

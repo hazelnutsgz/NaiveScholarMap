@@ -44,16 +44,16 @@
     else {
         $(document).ready(function () {
             loadScript([
-                '../lib/echarts-x/echarts-x.js',
-                '../lib/echarts/echarts.js',
-                '../lib/echarts/chart/map.js'
+                'lib/echarts-x/echarts-x.js',
+                'lib/echarts/echarts.js',
+                'lib/echarts/chart/map.js'
             ], function () {
                 require.config({
                     paths: {
-                        "lib": '../lib',
-                        'echarts-x': '../lib/echarts-x',
-                        'echarts': '../lib/echarts',
-                        'text': '../lib/text'
+                        "lib": 'lib',
+                        'echarts-x': 'lib/echarts-x',
+                        'echarts': 'lib/echarts',
+                        'text': 'lib/text'
                     }
                 });
                 boot();
