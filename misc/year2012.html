@@ -60,22 +60,22 @@
 <header id="header">
     <ul class="links">
         <select id="selectPointOfInterest" onchange="javascript:location.href=this.value;">
-            <option value="year2000.html">2000</option>
-            <option value="year2001.html">2001</option>
-            <option value="year2002.html">2002</option>
-            <option value="year2003.html" selected="selected">2003</option>
-            <option value="year2004.html">2004</option>
-            <option value="year2005.html">2005</option>
-            <option value="year2006.html">2006</option>
-            <option value="year2007.html">2007</option>
-            <option value="year2008.html">2008</option>
-            <option value="year2009.html">2009</option>
-            <option value="year2010.html">2010</option>
-            <option value="year2011.html">2011</option>
-            <option value="year2012.html">2012</option>
-            <option value="year2013.html">2013</option>
-            <option value="year2014.html">2014</option>
-            <option value="year2015.html">2015</option>
+            <option value="misc/year2000.html">2000</option>
+            <option value="misc/year2001.html">2001</option>
+            <option value="misc/year2002.html">2002</option>
+            <option value="misc/year2003.html">2003</option>
+            <option value="misc/year2004.html">2004</option>
+            <option value="misc/year2005.html">2005</option>
+            <option value="misc/year2006.html">2006</option>
+            <option value="misc/year2007.html">2007</option>
+            <option value="misc/year2008.html">2008</option>
+            <option value="misc/year2009.html">2009</option>
+            <option value="misc/year2010.html">2010</option>
+            <option value="misc/year2011.html">2011</option>
+            <option value="misc/year2012.html" selected="selected">2012</option>
+            <option value="misc/year2013.html">2013</option>
+            <option value="misc/year2014.html">2014</option>
+            <option value="misc/year2015.html">2015</option>
         </select>
     </ul>
 </header>
@@ -107,7 +107,7 @@
     myChart.showLoading();
 
     $.ajax({
-        url: './year/2003.json',
+        url: './year/2012.json',
         success: function (data) {
             var markPointStyle = {
                 normal: {
